@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <style>
+
+    .show_mobile {
+      display: none;
+    }
+    
     @media screen yahoo {
       .header {
         display: block !important;
@@ -36,6 +41,9 @@
       .hide-mobile {
         display: none !important;
       }
+      .show_mobile {
+        display: table-cell !important;
+      }
     }
 
     @media only screen and (max-width: 597px) {
@@ -59,6 +67,10 @@
 
       .hide-mobile {
         display: none !important;
+      }
+
+      .show_mobile {
+        display: table-cell !important;
       }
     }
 
@@ -111,33 +123,30 @@
       .hide-mobile {
         display: none !important;
       }
+
+      .show_mobile {
+        display: table-cell !important;
+      }
     }
   </style>
   <center>
-    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="background: #f2f2f2;">
-      <tr>
+    <table style="background: #f2f2f2;" width="100%" cellspacing="0" cellpadding="0" border="0">
+      <tbody><tr>
         <td align="center">
-          <table width="650" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:650px; width:100%;"
-            bgcolor="#FFFFFF">
-        <td>
-          <table width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:600px; width:100%; background-color: #fff;">
-            <tr style="height: 92px;">
-              <td class="hide-mobile" style="width: 300px; padding-left:  10px;" align="left" ">
-                          <img src="
-                https://raw.githubusercontent.com/timoanzalone/garavaglia/master/logo/logo_srl.png" height="38">
+          <div class="mobilecontent" style="display:none;max-height:0px;overflow:hidden;">
+        </div><table style="max-width:650px; width:100%;" width="650" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF" align="center">
+        <tbody><tr><td>
+          <table style="max-width:600px; width:100%; background-color: #fff;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr style="height: 92px;">
+              <td class="hide-mobile" style="width: 300px; padding-left:  10px;" align="left">
+                          <img src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/logo/logo_srl.png" height="38">
               </td>
 
-              <td style="padding-left:  10px;" align="left" ">
-                          <img src="
-                https://raw.githubusercontent.com/timoanzalone/garavaglia/master/logo/logo_mobile.png" height="38">
-              </td>
-
-              <td style="width:200px; padding-right: 10px; padding-top:22px; padding-bottom: 20px;" align="right">
-                <img src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/images/edutainement_logo_4.png"
-                  height="50">
+              <td class="show_mobile" style="padding-left: 10px;display: none;" align="left">
+                          <img src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/logo/logo-mobile.png" height="38">
               </td>
             </tr>
-          </table>
+          </tbody></table>
         </td>
       </tr>
       <tr>
@@ -147,196 +156,191 @@
       </tr>
 
       <!--[if !mso 9]><!-->
-      <div class="mobilecontent" style="display:none;max-height:0px;overflow:hidden;">
-        <tr style="mso-hide:all;">
+      <tr style="mso-hide:all;">
           <td style="mso-hide:all;">
 
             <div class="header_mobile" style=" display: none; mso-hide:all;">
               <div style="width:100%; margin: 0 auto; mso-hide:all;">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:580px; margin: 35px auto 0px auto; mso-hide: all;">
-                  <tr style="mso-hide:all;">
-                    <td align="left" valign="top" style="font-size:0;mso-hide:all;">
+                <table style="max-width:580px; margin: 35px auto 0px auto; mso-hide: all;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                  <tbody><tr style="mso-hide:all;">
+                    <td style="font-size:0;mso-hide:all;" valign="top" align="left">
                       <div class="header_img" style="display:inline-block;vertical-align: middle; width:100%; mso-hide:all;">
-                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
-                            <tr align="left">
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                            <tbody><tr align="left">
                                 <td>
-                                  <table width="500" cellspacing="0" cellpadding="0" border="0" align="left" style="max-width:550px; width:100%;">
-                                    <tr>
+                                  <table style="max-width:550px; width:100%;" width="500" cellspacing="0" cellpadding="0" border="0" align="left">
+                                    <tbody><tr>
                                       <td>
-                                          <h1 style="padding-left: 10px; margin-bottom:35px; margin-top:0; color: #000; font-weight: 600; font-size:24px; line-height: 28px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Rimaniamo accesi...</h1> 
+                                          <h1 style="padding-left: 10px; margin-bottom:35px; margin-top:0; color: #000; font-weight: 600; font-size:24px; line-height: 28px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Una soluzione innovativa e modulare per la gestione degli spazi nella ristorazione.</h1> 
                                       </td>
                                     </tr>
-                                  </table>
+                                  </tbody></table>
                                     
                                 </td>
                             </tr>
                           <tr>
-                            <td align="center" valign="top">
+                            <td valign="top" align="center">
 
-                              <img style="margin: 0 auto; width:100%;" src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/images/edutainement_opening2.png"
-                                alt="">
+                              <img style="margin: 0 auto; width:100%;" src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/images/safe-mall-opening.png" alt="">
 
                             </td>
                           </tr>
-                        </table>
+                        </tbody></table>
                       </div>
                     </td>
                   </tr>
-                </table>
+                </tbody></table>
               </div>
             </div>
 
             <div class="header" style="margin-bottom: 30px; mso-hide: all;">
               <div style="max-width: 580px; margin: 0 auto;">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:580px; margin:35px auto;">
-                    <tr align="left">
+                <table style="max-width:580px; margin:35px auto;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                    <tbody><tr align="left">
                         <td>
-                          <table width="500" cellspacing="0" cellpadding="0" border="0" align="left" style="max-width:550px; width:100%;">
-                            <tr>
+                          <table style="max-width:550px; width:100%;" width="500" cellspacing="0" cellpadding="0" border="0" align="left">
+                            <tbody><tr>
                               <td>
-                                  <h1 style="margin-bottom:35px; margin-top:0; color: #000; font-weight: 600; font-size:24px; line-height: 28px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Rimaniamo accesi...</h1> 
+                                  <h1 style="margin-bottom:35px; margin-top:0; color: #000; font-weight: 600; font-size:24px; line-height: 28px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Una soluzione innovativa e modulare per la gestione degli spazi nella ristorazione.</h1> 
                               </td>
                             </tr>
-                          </table>
+                          </tbody></table>
                             
                         </td>
                     </tr>    
                   <tr>
-                    <td align="left" valign="top" style="font-size:0;">
+                    <td style="font-size:0;" valign="top" align="left">
 
                       <div class="header_img" style="display:inline-block; max-width: 580px; vertical-align: middle; width:100%;">
-                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:580px;">
-                          <tr>
-                            <td align="left" valign="top">
+                        <table style="max-width:580px;" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                          <tbody><tr>
+                            <td valign="top" align="left">
 
-                              <img style="width:100%" src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/images/edutainement_opening2.png"
-                                alt="">
+                              <img style="width:100%" src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/images/safe-mall-opening.png" alt="">
                               
                             </td>
                           </tr>
-                        </table>
+                        </tbody></table>
                       </div>
 
                     </td>
                   </tr>
-                </table>
+                </tbody></table>
               </div>
             </div>
           </td>
         </tr>
-      </div>
+      
       <!--<![endif]-->
 
       <tr>
 
         <td width="650" align="center">
 
-          <table width="650" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:650px; width:100%;">
+          <table style="max-width:650px; width:100%;" width="650" cellspacing="0" cellpadding="0" border="0" align="center">
             <!--[if mso]>
 
                 <tr>
                   <td align="center">
-                    <img width="650" src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/images/edutainement_opening2.png">
+                    <img width="650" src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/images/safe-mall-opening.png">
                   </td>                                        
                 </tr>  
                 <![endif]-->
-            <tr>
+            <tbody><tr>
               <td align="center">
-                <table width="650" colspan="1" cellspacing="0" cellpadding="0" border="0" style="max-width:650px; width:100%; text-align: center; color: #fff;">
-                  <tr>
+                <table colspan="1" style="max-width:650px; width:100%; text-align: center;" width="650" cellspacing="0" cellpadding="0" border="0">
+                  <tbody><tr>
                     <td>
-                      <table width="550" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:550px; width:100%; background-color: rgba(255,255,255,.06);">
-                        <tr>
+                      <table style="max-width:550px; width:100%; background-color: rgba(255,255,255,.06);" width="550" cellspacing="0" cellpadding="0" border="0" align="center">
+                        <tbody><tr>
                           <td style="padding: 0;">
-                            <table width="500" cellspacing="0" cellpadding="0" border="0" align="left" style="max-width:550px; width:100%; padding-left: 10px; padding-right: 10px;">                          
-                              <tr>
+                            <table style="max-width:550px; width:100%; padding-left: 10px; padding-right: 10px;" width="500" cellspacing="0" cellpadding="0" border="0" align="left">                          
+                              <tbody><tr>
                                 <td align="left">
                                   <p style="color: #000; margin-top: 15px; margin-bottom: 0; font-size: 18px; line-height: 24px;letter-spacing: 0.1px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                    Buongiorno a tutti voi!
-                                    <br>
-                                    <br>
-                                    In questo periodo di grande difficoltà, divisi dalle distanze, sospesi nell’attesa, volevamo condividere con voi un pensiero...
+                                    Per rispondere in maniera veloce ed efficace alle problematiche di <b>distanziamento sociale legate alla ristorazione</b>, vi proponiamo la nostra nuova Linea Safe!
                                   </p>
                                 </td>
                               </tr>
                               <tr>
                                 <td align="left">
                                   <p style="color: #000; margin-top: 35px; margin-bottom: 0; font-size: 18px; line-height: 24px;letter-spacing: 0.1px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                    Durante tutti questi anni di attività voi siete sempre stati la base solida ed il centro della nostra missione. Con il tempo, moltissimi di voi sono diventati non solo dei fantastici clienti ma anche degli amici.
-                                  </p>
+                                    Grazie a moduli personalizzabili e ricchi di colorate scenografie, potrete <b>creare delle nuove isole sicure dove disporre tavoli e sedie</b> per poter sfruttare ogni spazio possibile all’interno o all’esterno di ristoranti e gallerie, garantendo sicurezza e privacy ai vostri clienti.</p>
                                 </td>
                               </tr>                     
                               <tr>
                                 <td align="left">
                                   <p style="color: #000; margin-top: 35px; margin-bottom: 0; font-size: 18px; line-height: 24px;letter-spacing: 0.1px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                    Ora più che mai, sentiamo il valore di questo rapporto e della fiducia che ci dimostrate e vogliamo farvi sapere che stiamo continuando a lavorare per potervi proporre appena possibile, idee e soluzioni innovative, sia per le nuove esigenze di sicurezza rispetto al Covid-19, sia per poter ripartire al più presto con progetti innovativi che possano mantenere caldo il legame tra voi e i vostri clienti.
-                                  </p>
-                                </td>
+                                    I moduli sono realizzabili con diversi materiali e possono essere facilmente montati per ingrandire o ridurre le dimensioni delle isole (da 2 a 8 persone).
+                                  </td>
                               </tr>                     
                               <tr>
                                 <td align="left">
-                                  <p style="color: #000; margin-top: 35px; margin-bottom: 0; font-size: 18px; line-height: 24px;letter-spacing: 0.1px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                    Possiamo anticiparvi che, grazie alla tecnologia e ad un confronto con partner di livello, sta nascendo un nuovissimo progetto che ci sta appassionando giorno e notte e di cui andiamo davvero fieri. Ve ne parleremo a breve!
-                                  </p>
+                                  <p style="color: #000; margin-top: 35px; margin-bottom: 35px; font-size: 18px; line-height: 24px;letter-spacing: 0.1px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                    La parte superiore del modulo sarà in plexiglass e potrà essere sagomato con diversi temi. Anche la grafica verrà creata ad hoc con decorazioni tematiche oppure brandizzata per operazioni di sponsorizzazione.</p>
                                 </td>
-                              </tr>                     
-                            </table>
+                              </tr>
+                              
+                              <tr align="center">
+                                <td>
+                                  <a href="mailto:info@garavaglia.eu" target="_blank" style="mso-hide:all;height: 44px; background: #96C222; border: 1px solid #96C222; box-shadow: 0 2px 6px 0 rgba(0,0,0,0.20); font-size: 17px; color: #FFFFFF; text-align: center; line-height:44px; width: 260px; text-decoration: none;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; display: block;">Scrivici per saperne di più!</a>              </td> 
+                              </tr>
+                            </tbody></table>
                           </td>
                         </tr>
-                      </table>
+                      </tbody></table>
                     </td>
                   </tr>
-                </table>
-          </table>
+                </tbody></table>
+          </td></tr></tbody></table>
         </td>
       </tr>
-          <tr align="center">
-              <td width="580">
-                  <h3 style="font-weight: 600; font-size: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Stay tuned...</h3>
-                  <img style="margin-top: 0px; max-width: 580px; width:100%;" src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/images/edutainement_creativity.png">
-                  <p style="color: #000000; margin-top: 10px; margin-bottom: 35px; font-size: 24px; line-height: 24px;letter-spacing: 0.1px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                    <b>Edutainment Hub</b>
-                    <br>
-                    <a style="color: #000000; margin-top: 10px; margin-bottom: 35px; font-size: 24px; line-height: 24px;letter-spacing: 0.1px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="http://garavaglia.eu/?page_id=2987">La nuova dimensione dell’intrattenimento.</a>
-                  </p>
-              </td>
-            </tr>
+
+      <tr align="center">
+
+          <td width="580">
+            <img style="margin-top: 35px; margin-bottom: 3px; max-width: 580px; width:100%;" src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/images/safe-mall-1.jpg">
+            <img style="margin-top: 3px; margin-bottom: 3px; max-width: 580px; width:100%;" src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/images/safe-mall-2.jpg">
+            <img style="margin-top: 3px; margin-bottom: 3px; max-width: 580px; width:100%;" src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/images/safe-mall-3.jpg">
+            <img style="margin-top: 3px; margin-bottom: 35px; max-width: 580px; width:100%;" src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/images/safe-mall-4.jpg">
+          </td>
+
+        </tr>
 
       <!-- Footer -->
       <tr>
-        <table width="650" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:650px; width:100%; background-color: #fff;">
-          <tr>
-              <td align="center" style="background-color: #96C222; height: 14px;"></td>
+        </tr></tbody></table><table style="max-width:650px; width:100%; background-color: #fff;" width="650" cellspacing="0" cellpadding="0" border="0" align="center">
+          <tbody><tr>
+              <td style="background-color: #96C222; height: 14px;" align="center"></td>
             </tr>
           <tr>
-            <td align="center" style="text-align:center;">
-              <a style="text-decoration: none;" href="https://www.facebook.com/Garavaglia-Srl-172468209472219/" target="_blank">
+            <td style="text-align:center;" align="center">
+              <a style="text-decoration: none;" href="http://%5Btrack%5D/https://www.facebook.com/Garavaglia-Srl-172468209472219/" target="_blank">
                 <p style="margin-top: 26px; font-size: 12px; line-height: 16px; color: #707070; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                  Visita la nostra pagina Facebook! <img width="24" style="vertical-align: middle; margin-left: 8px;"
-                    src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/social_icons/facebook.png"></p>
+                  Visita la nostra pagina Facebook! <img style="margin-left: 8px;" src="https://raw.githubusercontent.com/timoanzalone/garavaglia/master/assets/social_icons/facebook.png" width="24" align="middle"></p>
               </a>
             </td>
           </tr>
           <tr>
-            <td align="center" style="text-align:center;">
+            <td style="text-align:center;" align="center">
               <p style="font-size: 12px; line-height: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                <a href="http://www.garavaglia.eu" target="_blank" style="text-decoration:none;color:#4A4A4A;">www.garavaglia.eu</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="http://%5Btrack%5D/http://www.garavaglia.eu/" target="_blank" style="text-decoration:none;color:#4A4A4A;">www.garavaglia.eu</a>&nbsp;&nbsp;|&nbsp;&nbsp;
                 <a href="mailto:info@garavaglia.eu" style="text-decoration:none;color:#4A4A4A;">info@garavaglia.eu</a>
               </p>
             </td>
           </tr>
           <tr>
             <td align="center">
-              <table width="650" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:500px; width:100%;">
-                <tr>
-                  <td align="center" style="padding:15px; text-align: center;">
+              <table style="max-width:500px; width:100%;" width="650" cellspacing="0" cellpadding="0" border="0" align="center">
+                <tbody><tr>
+                  <td style="padding:15px; text-align: center;" align="center">
                     <p style="font-size: 12px; line-height: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Da
                       cinquanta anni Garavaglia opera nel settore degli allestimenti scenografici per la Grande
                       Distribuzione, fiere e punti vendita, parchi divertimento e aree d’intrattenimento, creando
                       colorati e fantasiosi mondi per emozionare e stupire.</p>
                   </td>
                 </tr>
-              </table>
+              </tbody></table>
             </td>
           </tr>
           <tr>
@@ -345,16 +349,16 @@
             </td>
           </tr>
           <tr>
-            <td align="center" style="text-align:center;">
+            <td style="text-align:center;" align="center">
               <p style="font-size: 12px; line-height: 16px; color: #707070; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Garavaglia
                 SRL, Via Matteotti Giacomo 64, Cinisello Balsamo, MI 20092 <br>
                 Tel: 02 6659 4306</p>
             </td>
           </tr>
-        </table>
-      </tr>
-    </table>
-  </center>
+        </tbody></table>
+      </td></tr>
+    </tbody></table>
+  </center><br class="t-last-br">
 </body>
 
 </html>
